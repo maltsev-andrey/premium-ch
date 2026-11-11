@@ -1,0 +1,15 @@
+# data and model artifacts stay local — s00 rebuilds the data from opendata.swiss
+data/
+models/
+*.parquet
+*.nc
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# editors / os
+.vscode/
+*.swp
+.DS_Store
