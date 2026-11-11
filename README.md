@@ -67,6 +67,20 @@ pipeline/
 
 Everything runs on CPU (a 20-core host does the full backtest in ~8 minutes). The model is small; benchmarking in a sibling project showed GPU overhead dominates at this size, so GPU is reserved for a future batched full-granularity model.
 
+## Exploratory results
+
+![YoY growth heatmap](figures/f02_growth_heatmap.png)
+
+*Year-over-year growth of the cantonal standard premium. The common shocks are vertical stripes: the 2020-2022 plateau (2022 median: -0.05%, the reserve-reduction year), the 2024 spike (+6.9% median), and Zug's -10.8% in 2026 — the policy intervention.*
+
+![Insurer consolidation](figures/f03_insurer_consolidation.png)
+
+*Insurers offering the base tariff: 59 (2015) down to 32 (2027), a halving in 12 years with no single-year discontinuity.*
+
+![Growth distribution](figures/f04_growth_distribution.png)
+
+*Distribution of the 26 cantonal growth rates per year. The box width shows how synchronized the cantons are — the common national shock dominates.*
+
 ## The model
 
 Log median standard premium per canton and year:
