@@ -56,7 +56,7 @@ OUT_RES = BASE_DIR / "data" / "processed" / "backtest_results.csv"
 OUT_SUM = BASE_DIR / "data" / "processed" / "backtest_summary.csv"
 FIG_DIR = BASE_DIR / "figures"
 
-ORIGINS = [2020, 2021, 2022, 2023, 2024, 2025, 2026]  # train <= T, predict T+1
+ORIGINS = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
 SEED = 20261110
 N_WARMUP = 1000
 N_SAMPLES = 1500
